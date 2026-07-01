@@ -1,0 +1,19 @@
+*{
+    padding-right: 0px;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+h1{
+    display: block;
+    font-size: 3rem;
+    margin-block-start: 0.60em;
+    margin-block-end: 60px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+footer{
+    margin-top: 850px;
+    margin: 30px;
+}
