@@ -18,5 +18,17 @@ footer{
     margin: 30px;
 }
 body{
-    background: linear-gradient();
+    background: linear-gradient(to right, rgb(200, 23, 123), rgb(221, 52, 131));
+    color: rgb(247, 229, 172);
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 1, 1);
+}
+input, button{
+    background-color: antiquewhite;
+    padding: 4px;
+}
+button{
+    border-radius: 8px;
 }

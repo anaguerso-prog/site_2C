@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/png">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <script src="../js/index.js"defer></script>
+    <title>soma de numeros</title>
 </head>
 <body>
     <header>
@@ -18,6 +19,16 @@
         <h1>
             Programas desenvolvidos pela empresa
         </h1>
+        <article>
+            <label for="num">digite um número</label><br>
+            <input type="text" id="num" placeholder="primeiro numero..."><br><br>
+
+            <label for="num2">digite o segundo número</label><br>
+            <input type="text" id="num2" placeholder="segundo numero...">
+            <button onclick="principal()">Calcular</button>
+            <div id="resposta"></div>
+        </article>
     </main>
+
 </body>
 </html>
